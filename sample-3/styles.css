@@ -1,0 +1,156 @@
+/*styles*/
+header, footer {
+    background-color: grey;
+    color: white;
+    padding-left: 5%;
+}
+.clearfix::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+.menu {
+    padding: 1%;
+    width: 25%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 1%;
+    padding: 3%;
+}
+.menu li {
+    text-align: center;
+    padding: 1%;
+    margin-bottom: 2%;
+    color: red;
+    background-color: #33b5e5;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+.content {
+    width: 75%;
+}
+.column {
+    float: left;
+}
+/*html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.container {
+    max-width: 95%;
+    margin: 0 auto;
+}
+nav {
+  
+    padding: 1%;
+}
+nav li {
+    float: left;
+    list-style: none;
+    padding: 1%;
+}
+nav li a {
+    text-decoration: none;
+    
+.section-1 {
+    width: 71%;
+    padding: 2%;
+    float: left;
+}
+.section-2 {
+    float: left;
+    width: 13%;
+    padding: 6%;
+}
+section figure {
+    float: left;
+    margin: 1%;
+    width: 30%;
+}
+section figure img {
+    width: 100%;
+}
+
+.grouping:before, 
+.grouping:after {
+    content: " ";
+    display: table;
+}
+.grouping:after {
+    clear: both;
+}
+
+@media screen and (max-width: 328px) {
+    .section-1 {
+        float: none;
+        width: auto;
+        padding: 0;
+        margin-bottom: 2%;
+    }
+    .section-2 {
+        float: none;
+        width: auto;
+        padding: 0;
+        margin-bottom: 2%;
+    }
+}
+*/
+
+
+
+
+/*.container {
+  position: relative;
+}
+nav {
+  position: absolute;
+  left: 0px;
+  width: 200px;
+}
+nav ul {
+    position: relative;
+}
+section {
+  margin-left: 200px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+}
+body {
+  margin-bottom: 120px;
+}*/
+
+/*body {
+    background-color: seashell;
+    width: 100%;
+}
+header {
+    line-height: auto;
+}
+header figure {
+    max-width: 100%;
+    width: 10%;
+    padding-left: 4%;
+}
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+.main-content {
+    width: 780px;
+    float: left;
+}
+.news {
+    margin-left: 20px;
+    float: left;
+    width: 180px;
+}*/

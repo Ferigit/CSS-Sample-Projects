@@ -1,0 +1,135 @@
+/*#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#left-column {
+    width: 700px;
+    float: left;
+    background: blue;
+}
+
+#right-column {
+    width: 260px;
+    float: left;
+    background: orange;
+}
+img {
+    max-width: 100%;
+}
+@media screen and (max-width: 959px)
+{
+    #container {
+        width: 100%;
+    }
+    #left-column {
+        width: 70%;
+    }
+    #right-column {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 640px)
+{
+    #left-column {
+        width: 100%;
+    }
+    #right-column {
+        width: 100%;
+    }
+}*/
+
+
+
+* {
+    border: 1px solid red;
+}
+#page {
+    margin: 5% auto;
+    width: 90%;
+}
+.blog {
+    margin: 0 auto 17%;
+    width: 93.75%;
+}
+.blog .main {
+    float: left;
+    width: 62.88%;
+}
+.main-title {
+    background: #000;
+        color: #FFF;
+        font: normal 3.625em/0.9 "League Gothic", "Arial Narrow", Arial, sans-serif;  /* 58px / 16px */
+        text-transform: uppercase;
+}
+.blog .other {
+    float: right;
+    width: 36.77%;
+}
+.lede {
+    padding: 0.8em 5.333%;
+}
+.recent-entries {
+    margin: 0 auto;
+    width: 69.78%;
+}
+.article {
+    padding: 40px 8.480%;
+}
+.date {
+    padding: 5%;
+    float: left;
+    width: 14.556962%;
+    margin-left: -17.08%;
+}
+.figure {
+    float: right;
+    margin-bottom: 0.5em;
+    margin-left: 2.531%;
+    width: 48.73%;
+}
+img, embed, object, vidoe{
+  max-width: 100%;
+}
+.figure img {
+    width: 100%;
+}
+ .blog {
+     background-image: url('_images/gallery_banner.jpg');
+}
+.slides .figure b {
+         display: block;
+         overflow: hidden;
+         margin-bottom: 0;
+         width: 112.272727%;  /* 741px / 660px */
+}
+.slides .figure b img {
+    display: block;
+    max-width: inherit;
+}
+@media screen and (max-width: 768px) {
+    .slides .figure b {
+      width: auto;
+    }
+    .slides .figure b img {
+      max-width: 100%;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+         #page {
+           margin: 20px;
+           width: auto;
+         }
+         .welcome,
+         .blog,
+         .gallery {
+           margin: 0 0 30px;
+           width: auto;
+         }
+}
+
+@media screen and (max-width: 768px) {
+    .main-title {
+font: normal 1.5em Calibri, Candara, Segoe, » "Segoe UI", Optima, Arial, Helvetica, » sans-serif; /* 24px / 16px */
+} }

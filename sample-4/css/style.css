@@ -1,0 +1,163 @@
+body {
+    background-color: gainsboro;
+}
+section {
+    /*padding-top: 1%;*/
+    margin: 2%;
+}
+h1 {
+    font-size: 36px;
+    line-height: 1.4;
+    font-weight: bold;
+    color: #0072ae;
+}
+h2 {
+    font-size: 26px;
+    font-style: italic;
+    color: #eb2428;
+    margin-bottom: 10px;
+}
+p {
+    font: normal normal 18px/1.6 Geo
+}
+a {
+    text-decoration: none;
+}
+.intro-content {
+    float: left;
+    width: 70%;
+    padding: 1%;
+}
+.go-premium {
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-top: 13%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: red;
+}
+.go-premium p {
+    font-size: 15px;
+    color: black;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    padding: 2% 0;
+}
+.column {
+    float: left;
+    width: 300px;
+    margin-left: 20px;
+}
+.column:first-child {
+    margin-left: 0;
+}
+.alt-headline {
+    font-size: 40px;
+}
+.secondary-section {
+    /*background-color: green;*/
+    padding-bottom: 2%;
+}
+.secondary-section h2 {
+    font-style: normal;
+    color: #0072ae;
+    font-weight: bold;
+}
+.secondary-section p {
+    color: deeppink;
+}
+#main-site-title {
+    color: deeppink;
+}
+.secondary-section img {
+    border-radius: 3%;
+}
+
+/*Bottons*/
+.botton {
+    border: 1px solid #333;
+    color: #333;
+    padding: 10px 0;
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    transition: .1s all linear;
+}
+.botton:hover {
+    background-color: #333;
+    color: #fff;
+    transform: scale(1.1, 1.1) translate(0, 5px);
+}
+.botton-narrow {
+    width: 25%;
+ }
+.botton-alt {
+    color: black;
+    border-color: black;
+}
+.breake-line {
+    border-bottom: 1px solid black;
+    /*padding-top: 1%; */
+    /*padding-top: 1%;*/
+}
+
+/*Modular styles*/
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.bold {
+    font-weight: bold;
+}
+.hidden, hide {
+    display: none;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.block {
+    display: block;
+}
+.inline-block {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+/*shark-movie style*/
+.content-block {
+
+}
+.content-block .figure {
+    float: left;
+    width: 23%;
+    overflow: hidden;
+    /*padding: 1%;*/
+    /*float: left;*/
+    border: 5px solid white;
+    
+}
+.content-block .figure img {
+    float: left;
+}
+.content-block .figure img:hover {
+    transform: rotate(15deg) scale(1.25, 1.25);
+    transition: .5s all linear;
+}

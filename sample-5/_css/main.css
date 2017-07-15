@@ -1,0 +1,92 @@
+body {
+    width: 1280px;
+    background-color: #ccc; 
+    margin: 0 auto;
+    /*border: 2px solid black;*/
+}
+header {
+	background: rgb(100, 98, 102);
+	padding-top: 1px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	padding-left: 30px;
+    
+}
+header h1 {
+    background: url(../_images/desolve_logo.png) no-repeat left center;
+    float: left;
+    line-height: 134px;
+    padding-left: 110px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    
+}
+header h2 {
+    float: left;
+    line-height: 134px;
+    font-style: italic;
+    color: #fff;
+}
+header a {
+    text-decoration: none;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font: inherit;
+    list-style: none;
+    /*line-height: 50px;*/
+}
+nav li {
+    margin-right: 25px;
+    float: left;
+    vertical-align: baseline;
+    display: list-item;
+    text-transform: uppercase;
+}
+
+#mainNav {
+	overflow: hidden;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    font-size: 18px;
+    text-decoration: none;
+}
+#mainNav em {
+    font-size: 16px;
+    text-transform: none;
+}
+#mainNav a {
+    text-decoration: none;
+    padding-left: 25px;
+}
+
+a.gallery {
+	background: url(../_images/icon_sprites_25.png) no-repeat 0 3px;
+	padding-left: 20px;
+}
+
+a.gear {
+	background: url(../_images/icon_sprites_25.png) no-repeat 38px -98px;
+	padding-left: 20px;
+}
+
+a.interact {
+	background: url(../_images/icon_sprites_25.png) no-repeat 62px -197px;
+	padding-left: 22px;
+}
+
+a.shop {
+	background: url(../_images/icon_sprites_25.png) no-repeat 6px -297px;
+	padding-left: 18px;
+}
+
+section {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align:baseline;
+	font: inherit;
+}

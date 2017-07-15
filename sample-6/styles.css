@@ -1,0 +1,317 @@
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+
+body { 
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(100, 100, 100);
+}
+header {
+    width: 100%;
+    height: 60px;
+    background: rgb(0, 0, 0);
+    padding: 5px 0;
+}
+#logo img {
+    width: 200px;
+    padding-top: 10px;
+    float: left;
+    margin-left: 10px;
+}
+.container {
+    width: 940px;
+    height: 100%;
+    margin: 0 auto;
+    /*background: rgb(150, 0, 0);*/
+}
+nav {
+    margin-top: 3px;
+}
+nav li {
+    display: inline;
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 100%;
+}
+nav li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+input.search {
+    border-radius: 5px;
+    height: 20px;
+    margin-top: 15px;
+    border: 1px solid rgb(150, 150, 150);
+    width: 140px;
+    background: rgb(255, 255, 255) url(search.png) no-repeat 4px 4px;
+    padding: 4px 4px 4px 30px;
+    margin-right: 10px;
+}
+section.hero {
+    width: 100%; 
+    max-height: 400px;
+    padding: 5px 0;
+    background: url(herobg.jpg);
+    background-size: 100% 100%;
+    margin-bottom: 77px;
+}
+.herocontent {
+    width: 390px;
+    margin-left: 20px;
+    padding-top: 55px;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+}
+.heroimage {
+    margin: 85px 0 0 10px;
+}
+section.hero h1 {
+    font-size: 225%;
+    margin-bottom: -10px;
+    line-height: 1em;
+    font-weight: normal;
+}
+section.hero p {
+     margin-bottom: 60px;
+}
+.button {
+    width: 225px;
+    height: 45px; 
+    background: url(buttonbg.jpg);
+    text-align: center;
+    font-size: 150%;
+    padding: 20px 5px 5px;
+    margin: 5px 5px 0 0;
+    border: 1px solid rgb(205, 101, 14);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button a {
+    color: white;
+    text-decoration: none;
+}
+.button:hover {
+    background: url(buttonbg_o.jpg);
+}
+
+
+section.features {
+    width: 940px;
+    height: 410px;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+section.features h2 {
+    font-size: 300%;
+    text-align: center;
+    margin-bottom: -25px;
+    font-weight: normal;
+    color: rgb(113,80,109);
+}
+section.features h4 {
+    font-size: 125%;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(200, 200, 200);
+}
+section.features aside {
+    width: 286px;
+    height: 200px;
+    float: left;
+    text-align: center;
+    margin-left: 20px;
+}
+section.features aside img {
+    width: 100%;
+    height: 150px;
+    margin-bottom: -30px;
+}
+section.features aside h3 {
+    font-size: 200%;
+    font-weight: normal;
+    color: rgb(113, 80, 109)
+}
+section.organize {
+    width: 100%;
+    height: 260px;
+    background: rgb(240, 240, 240);
+    padding: 5px 0;
+    margin-bottom: 5px;
+    border-top: 1px solid rgb(200, 200, 200);
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+section.organize img, section.share img {
+    width: 440px;
+    height: 225px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.organizecontent, .sharecontent {
+    float: left;
+    margin-left: 20px;
+    width: 440px;
+}
+.organizecontent h2, .sharecontent h2 {
+    color: rgb(113, 80, 109);
+    font-size: 225%;
+    margin-bottom: -20px;
+}
+
+section.share {
+    width: 940px;
+    height: 260px;
+    margin: 0 auto 5px;
+    padding: 5px 0;
+}
+section.get {
+    width: 100%;
+    height: 100px;
+    background: rgb(113, 80, 109);
+    padding: 5px 0;
+}
+section.get h2 {
+    font-size: 250%;
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    margin-top: 20px;
+    font-weight: normal;
+    float: left;
+}
+section.get .button {
+    width: 150px;
+    height: 38px;
+    margin-right: 60px;
+    margin-top: 25px;
+    padding-top: 7px;
+}
+footer {
+    width: 100%;
+    height: 60px;
+    padding: 5px 0;
+    text-align: center;
+}
+footer nav li a {
+    font-size: 80%;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+/*These ruleas apply for media resulotion screnn sizes*/
+@media screen and (max-width: 768px) {
+body { }
+
+header {  }
+	#logo {  }
+	#logo img { width: 25%; }
+	nav {  }
+	nav li { margin-right: 15px;font-size: 90%; }
+	nav li a {  }
+	input.search { width: 10%; }
+
+section.hero { 
+    background-size: 770px 410px; 
+    margin-bottom: 0; 
+    max-height: 100%; 
+    padding-bottom: 10px; 
+    }
+	.heroimage { 
+        margin: 50px 0 0 20px;
+        width: 50%;
+     }
+	.herocontent { 
+        width: 40%;
+        margin-left: 10px;
+        padding-top: 10px;
+     }
+	section.hero h1 { 
+        font-size: 190%; 
+        }
+	section.hero p { 
+        margin-bottom: 20px;
+     }
+	.button { 
+        width: 200px;
+        height: 35px;
+        padding-top: 10px;
+        font-size: 120%;
+     }
+	.button a {  }
+	.button:hover {  }
+
+section.features { 
+    width: 100%;
+ }
+	section.features h2 { 
+        margin-top: 20px;
+        font-size: 180%;
+     }
+	section.features h4 { 
+        font-size: 110%;
+     }
+	section.features aside { 
+        width: 33%;
+        height: auto;
+        margin-left: 0;
+     }
+	section.features aside img { 
+        width: 100%;
+        height: auto;
+     }
+	section.features aside h3 { 
+        font-size: 150%;
+     }
+
+section.organize { 
+    padding: 0 0 80px 0;
+ }
+	section.organize img, section.share img { 
+        width: 50%;
+        height: auto;
+        margin-left: 10px;
+        margin-top: 60px;
+     }
+	.organizecontent, .sharecontent { 
+        width: 40%;
+     }
+	.organizecontent h2, .sharecontent h2 { 
+        line-height: 90%;
+        margin-bottom: 5px;
+        margin-left: 10px;
+        font-size: 150%;
+     }
+section.share { 
+    width: 100%;
+    padding: 0 0 80px 0;
+ }
+
+ .organizecontent p, .sharecontent p, herocontent p, .features p {
+    font-size: 90%;
+ }
+
+section.get {  }
+	section.get h2 { 
+        font-size: 130%;
+        margin-left: 10px;
+     }	
+	section.get .button { 
+        margin-right: 10px;
+     }
+
+footer {  }
+	footer nav {  }
+	footer nav li a {  }
+	
+.container { width: 90%; }
+}
+
+/*These rules aplly for low resolution screen sizes*/
