@@ -1,0 +1,28 @@
+
+/*THESE RULES ONLY APPLY WHEN THE LAYOUT IS PRINTED*/
+
+body {  }
+
+header { width: 2.25in; background: rgb(0, 0, 0); padding: 5px 0; margin: 0 auto; }
+	#logo {  }
+	#logo img { margin-left: 10px; }
+	nav { display: none; }
+	nav li {  }
+	nav li a {  }
+	nav li a:hover {  }
+	input.search { display: none; }
+
+section {  }	
+	.container {  }
+	.container img { display: none; }
+	h1 { text-align: center; margin: 50px 0 -10px 0; }
+	p { line-height: 150%; }
+
+footer { display: none; }
+	footer nav {  }
+	footer nav li a {  }
+	footer nav li a:hover {  }
+	
+.floatleft { float: left; }
+.floatright { float: right; }
+.clear { clear: both; }	
